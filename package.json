@@ -2,8 +2,10 @@
   "name": "south-african-public-holidays",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/server.js",
+  "types": "dist/server.d.ts",
   "scripts": {
+    "build": "tsc",
     "start": "tsc && node dist/server.js",
     "dev": "nodemon"
   },
