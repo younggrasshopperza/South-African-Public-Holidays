@@ -1,5 +1,11 @@
 import express, { Request, Response } from 'express';
-import { southAfricanHolidays, southAfricanHolidaysCheckingForSundays, southAfricanHolidaysWithNames, southAfricanHolidaysWithNamesCheckingSundays } from "./util";
+import {
+    southAfricanHolidays,
+    southAfricanHolidaysCheckingForSundays,
+    southAfricanHolidaysWithNames,
+    southAfricanHolidaysWithNamesCheckingSundays
+} from "./util";
+
 const app = express();
 const PORT = process.env.PORT || 3000;
 
