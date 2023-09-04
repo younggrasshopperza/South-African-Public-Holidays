@@ -15,7 +15,7 @@ app.get('/south-african-holiday-dates', (req: Request, res: Response) => {
     res.json(southAfricanHolidays);
 });
 
-app.get('/south-african-holiday-checking-sundays', (req: Request, res: Response) => {
+app.get('/south-african-holiday-dates-checking-sundays', (req: Request, res: Response) => {
     res.json(southAfricanHolidaysCheckingForSundays);
 });
 
